@@ -1,4 +1,7 @@
-/* Main Image */
+/* 
+	I didn't use this stylesheet was planning on creating a
+	better landing page for mobile site.
+*/
 .hero {
 	background: url('coche.jpg');
 	background-size: cover;
@@ -13,7 +16,7 @@
 	position: relative;
 	color: white;
 }
-.hero > h1 {
+.hero  h1 {
 	font-size: 65px;
 }
 nav {

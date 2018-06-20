@@ -1,0 +1,103 @@
+@media screen and (max-width: 630px) {
+	#icon-1 {
+		height: 100px;
+		width: 134px;
+	}
+	#icon-2 {
+		height: 115px;
+		width: 132px;
+	}
+	#icon-3 {
+		height: 134px;
+		width: 132px;
+	}
+ }
+@font-face {
+    font-family: ikaros;
+    src: url(fonts/Ikaros-Light.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: Ikaros-Regular;
+    src: url(fonts/Ikaros-Regular.otf);
+    font-style: normal;
+    font-weight: 600;
+}
+* {
+	font-family: "Ikaros-Regular";
+	text-align: center; 
+}
+html, body {
+  	margin: 0;
+ 	padding: 0;
+}
+.title {
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.title h1 {
+	font-size: 50px;
+	font-family: "Ikaros-Regular";
+}
+.quote {
+	height: auto;
+	margin-top: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.nav-link {
+	color: black;
+	font-size: 20px;
+}
+.thin {
+	font-family: "ikaros";
+}
+.align-left {
+	text-align: left;
+}
+.footer {
+	height: 30px;
+}
+.active {
+	color: gray;
+}
+.center {
+	text-align: center;
+}
+#gray {
+	width: auto;
+	height: auto;
+	background-color: #FFECB3;
+}
+.udac {
+	padding-top: : 15px;
+}
+
+.socialbtns {
+  height: auto;
+}
+.socialbtns ul {
+  text-align: center;
+}
+a {
+    color: rgb(70,122,251);
+    text-decoration: none;
+    padding: 5px;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+}
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+    text-decoration-style: none;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(101,177,150);
+}

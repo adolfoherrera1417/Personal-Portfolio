@@ -1,0 +1,133 @@
+/* Main Image */
+.hero {
+	background: url('coche.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	color: white;
+}
+.hero > h1 {
+	font-size: 65px;
+}
+nav {
+	transition: all ease .5s;
+}
+.top-main {
+	padding-top: 0px;
+}
+.two-main {
+	padding-top: 24px;
+	box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+	padding-bottom: 24px;
+}
+/* Main Image */
+/* Navigation Menu */
+.custom-navigation {
+	background: transparent;
+	height: 70px;
+	width: 100%;
+	transition: all ease .5s;
+
+}
+.custom-navigation #logo {
+	color: white;
+	padding: 38px 0 0 95px;
+	font-size: 24px;
+}
+.custom-navigation #links,#logo {
+	
+	display: inline-block;
+	transition: all ease .5s;
+}
+
+.custom-navigation #links {
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 45px 50px 0 0;
+	font-size: 18px;
+}
+.custom-navigation #links > li > a{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+.custom-navigation #links > li {
+	display: inline-block;
+	color: white;
+	padding-right: 20px;
+}
+#logo {
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  transition: all ease .5s;
+}
+.middle-main {
+	padding-bottom: 20px;
+}
+#body {
+	
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 17px;
+}
+/* Navigation Menu */
+
+/* Navigation Menu Add Class Shrink */
+nav.shrink {
+  height: 50px;
+  transition: all ease .5s;
+  background-color: rgba(0,0,0,0.7); // Change background to black on scroll
+}
+
+nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s;
+}
+nav.shrink #links{
+  padding: 10px;
+  transition: all .5s ease-in-out;
+}
+/* Navigation Menu Add Class Shrink */
+
+/* Ability Bar */
+#ability {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#abilityunder{
+	color: gray;
+}
+/* Ability Bar */
+.text-center {
+	text-align: center;
+}
+#icon-row {
+	padding: 20px 0px;
+	padding-bottom: 20px;
+}
+#pic-row-html {
+	height: 108.7px;
+	width: 91.25px;
+}
+#pic-row-matlab {
+	width: 134px;
+	height: 110px;
+	padding-right: 5px;
+}
+.container-fluid {
+	padding-top: 24px;
+	height: 224px;
+	background-color: rgba(0,0,0,0.7);
+}

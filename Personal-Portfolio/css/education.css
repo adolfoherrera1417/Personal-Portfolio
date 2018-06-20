@@ -12,6 +12,10 @@
 		width: 132px;
 	}
  }
+/* 
+  Donwloaded Font:
+  https://befonts.com/ikaros-font.html
+*/
 @font-face {
     font-family: ikaros;
     src: url(fonts/Ikaros-Light.otf);

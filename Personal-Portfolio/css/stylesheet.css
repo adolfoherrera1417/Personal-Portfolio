@@ -1,162 +1,158 @@
 @media screen and (min-height: 630px) {
-  @media screen and (min-width: 1000px) {
-
-    .xop-container {
-      display: flex;
-
-    }
-    .xop-left {
-      /* 
-        Using profil.jpg as logo pic
-      */
-      background-image: url('../images/Profile.JPG');
-      background-size: cover;
-      background-position: center;
-      flex: 1;
-      height: auto;
-      padding: 1rem;
-    }
-  }
-}
-@media screen and (max-width: 999px) {
-    .xop-left {
-      background-image: url('../images/Profile.JPG');
-      background-size: cover;
-      background-position: center;
-      flex: 1;
-      height: 75%;
-      padding: 1rem;
-    }
-  }
-@media screen and (max-width: 500px) {
-    .information {
-      margin-top: auto;
-      margin-bottom: auto;
-      margin-right: 25px;
-      margin-left: 25px;
-      height: auto;
-      text-align: center;
+     @media screen and (min-width: 1000px) {
+         .xop-container {
+             display: flex;
+        }
+         .xop-left {
+            /* Using profil.jpg as logo pic */
+             background-image: url('../images/Profile.JPG');
+             background-size: cover;
+             background-position: center;
+             flex: 1;
+             height: auto;
+             padding: 1rem;
+        }
     }
 }
-/* 
-  Donwloaded Font:
-  https://befonts.com/ikaros-font.html
-*/
-@font-face {
-    font-family: ikaros;
-    src: url(../fonts/Ikaros-Light.otf);
-    font-style: normal;
-    font-weight: 100;
+ @media screen and (max-width: 999px) {
+     .xop-left {
+         background-image: url('../images/Profile.JPG');
+         background-size: cover;
+         background-position: center;
+         flex: 1;
+         height: 75%;
+         padding: 1rem;
+    }
 }
-@font-face {
-    font-family: Ikaros-Regular;
-    src: url(../fonts/Ikaros-Regular.otf);
-    font-style: normal;
-    font-weight: 600;
+ @media screen and (max-width: 500px) {
+     .information {
+         margin-top: auto;
+         margin-bottom: auto;
+         margin-right: 25px;
+         margin-left: 25px;
+         height: auto;
+         text-align: center;
+    }
 }
-html, body {
-  margin: 0;
-  padding: 0;
+/* Donwloaded Font: https://befonts.com/ikaros-font.html */
+ @font-face {
+     font-family: ikaros;
+     src: url(../fonts/Ikaros-Light.otf);
+     font-style: normal;
+     font-weight: 100;
 }
-html, body, section {
-  height: 100%;
+ @font-face {
+     font-family: Ikaros-Regular;
+     src: url(../fonts/Ikaros-Regular.otf);
+     font-style: normal;
+     font-weight: 600;
 }
-body {
-  color: black;
-  font-family: "ikaros", "Times New Roman", serif;
-  font-weight: 100;
+ html, body {
+     margin: 0;
+     padding: 0;
 }
-div {
-  display: flex;
-  flex-direction: column; 
+ html, body, section {
+     height: 100%;
 }
-.xop-right {
-  flex: 1;
-  padding: 1rem;
+ body {
+     color: black;
+     font-family: "ikaros", "Times New Roman", serif;
+     font-weight: 100;
 }
-.information {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 25px;
-  margin-left: 25px;
-  height: auto;
+ div {
+     display: flex;
+     flex-direction: column;
 }
-#name {
-  height: auto;
+ .xop-right {
+     flex: 1;
+     padding: 1rem;
 }
-#name h1 {
-  color: black;
-  font-family: "Ikaros-Regular", "Times New Roman", serif;
-  font-weight: 100;
-  font-size: 50px;
+ .information {
+     margin-top: auto;
+     margin-bottom: auto;
+     margin-right: 25px;
+     margin-left: 25px;
+     height: auto;
 }
-#about {
-  font-size: 20px;
+ #name {
+     height: auto;
 }
-.buttons {
-  height: auto;
-  margin-bottom: 25px;
+ #name h1 {
+     color: black;
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
+     font-weight: 100;
+     font-size: 50px;
 }
-.buttons ul {
-  padding: 0;
-  margin: auto;
-  list-style: none;
+ #about {
+     font-size: 20px;
 }
-.buttons ul li{
-  text-decoration: none;
-  display: inline-block;
-  margin: auto;
-  height: 60px;
-  width: 160px;
-  text-align: center;
-  -webkit-transition-duration: 0.6s; /* Safari */
-  transition-duration: 0.6s;
-  margin-right: 12px;
-  margin-left: 12px;
-  margin-top: 25px;
+ .buttons {
+     height: auto;
+     margin-bottom: 25px;
 }
-.buttons ul li a {
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  color: black;
-  font-family: "Ikaros-Regular", "Times New Roman", serif;
-  font-size: 22px;
-  padding-top: 18px;
-  margin: auto;
-  height: 38px;
-  width: 147px;
-  border-radius: 15px;
-  border-color: black;
-  border-style: solid;
+ .buttons ul {
+     padding: 0;
+     margin: auto;
+     list-style: none;
 }
-.buttons ul li a:hover {
-  background-color: black;
-  color: white;
-  -webkit-transition-duration: 0.6s; /* Safari */
-  transition-duration: 0.6s;
+ .buttons ul li{
+     text-decoration: none;
+     display: inline-block;
+     margin: auto;
+     height: 60px;
+     width: 160px;
+     text-align: center;
+     -webkit-transition-duration: 0.6s;
+    /* Safari */
+     transition-duration: 0.6s;
+     margin-right: 12px;
+     margin-left: 12px;
+     margin-top: 25px;
+}
+ .buttons ul li a {
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     color: black;
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
+     font-size: 22px;
+     padding-top: 18px;
+     margin: auto;
+     height: 38px;
+     width: 147px;
+     border-radius: 15px;
+     border-color: black;
+     border-style: solid;
+}
+ .buttons ul li a:hover {
+     background-color: black;
+     color: white;
+     -webkit-transition-duration: 0.6s;
+    /* Safari */
+     transition-duration: 0.6s;
 }
 /* Footer */
-.footer {
-  height: auto;
+ .footer {
+     height: auto;
 }
-.footer ul {
-  text-align: center;
+ .footer ul {
+     text-align: center;
 }
-a {
-    color: black;
-    text-decoration: none;
-    padding: 5px;
+ a {
+     color: black;
+     text-decoration: none;
+     padding: 5px;
 }
-.footer, .footer ul, .footer li {
-    margin: 0;
-    padding: 5px;
+ .footer, .footer ul, .footer li {
+     margin: 0;
+     padding: 5px;
 }
-.footer li {
-    list-style: none outside none;
-    display: inline-block;
-    text-decoration-style: none;
+ .footer li {
+     list-style: none outside none;
+     display: inline-block;
+     text-decoration-style: none;
 }
-.footer p {
-  text-align: center;
+ .footer p {
+     text-align: center;
 }
+ 

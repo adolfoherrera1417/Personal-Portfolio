@@ -14,18 +14,18 @@
 */
 @font-face {
     font-family: ikaros;
-    src: url(fonts/Ikaros-Light.otf);
+    src: url(../fonts/Ikaros-Light.otf);
     font-style: normal;
     font-weight: 100;
 }
 @font-face {
     font-family: Ikaros-Regular;
-    src: url(fonts/Ikaros-Regular.otf);
+    src: url(../fonts/Ikaros-Regular.otf);
     font-style: normal;
     font-weight: 600;
 }
 * {
-	font-family: "Ikaros-Regular";
+	font-family: "Ikaros-Regular", "Times New Roman", serif;
 	text-align: center; 
 }
 html, body {
@@ -40,7 +40,7 @@ html, body {
 }
 .title h1 {
 	font-size: 50px;
-	font-family: "Ikaros-Regular";
+	font-family: "Ikaros-Regular", "Times New Roman", serif;
 }
 .quote {
 	height: auto;
@@ -59,7 +59,7 @@ html, body {
 	padding-top: 15px;
 }
 .thin {
-	font-family: "ikaros";
+	font-family: "ikaros", "Times New Roman", serif;
 }
 #ng-info {
 	padding-top: 20px;

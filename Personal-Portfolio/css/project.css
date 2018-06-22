@@ -1,113 +1,111 @@
 @media screen and (min-width: 800px) {
-        .content p {
-            font-size: 10px;   
+     .content p {
+         font-size: 10px;
     }
 }
-@media screen and (min-width: 1100px) {
-        .content p {
-            font-size: 1em;
+ @media screen and (min-width: 1100px) {
+     .content p {
+         font-size: 1em;
     }
 }
-/* 
-  Donwloaded Font:
-  https://befonts.com/ikaros-font.html
-*/
-@font-face {
-    font-family: ikaros;
-    src: url(../fonts/Ikaros-Light.otf);
-    font-style: normal;
-    font-weight: 100;
+/* Donwloaded Font: https://befonts.com/ikaros-font.html */
+ @font-face {
+     font-family: ikaros;
+     src: url(../fonts/Ikaros-Light.otf);
+     font-style: normal;
+     font-weight: 100;
 }
-@font-face {
-    font-family: Ikaros-Regular;
-    src: url(../fonts/Ikaros-Regular.otf);
-    font-style: normal;
-    font-weight: 600;
+ @font-face {
+     font-family: Ikaros-Regular;
+     src: url(../fonts/Ikaros-Regular.otf);
+     font-style: normal;
+     font-weight: 600;
 }
-* {
-	font-family: "Ikaros-Regular", "Times New Roman", serif;
-	text-align: center;
+ * {
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
+     text-align: center;
 }
-html, body {
-  	margin: 0;
- 	padding: 0;
-    color: black;
+ html, body {
+     margin: 0;
+     padding: 0;
+     color: black;
 }
-.title {
-    margin-top: 15px;
-    width: 100%;
-    height: auto;
-    text-align: center;
+ .title {
+     margin-top: 15px;
+     width: 100%;
+     height: auto;
+     text-align: center;
 }
-.title h1 {
-    font-size: 50px;
-    font-family: "Ikaros-Regular", "Times New Roman", serif;
+ .title h1 {
+     font-size: 50px;
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
 }
-.quote {
-    height: auto;
-    margin-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+ .quote {
+     height: auto;
+     margin-top: 20px;
+     margin-left: 15%;
+     margin-right: 15%;
 }
-.nav-link {
-    color: black;
-    font-size: 20px;
+ .nav-link {
+     color: black;
+     font-size: 20px;
 }
-.active {
-    color: gray;
+ .active {
+     color: gray;
 }
-.col-lg-6 {
-    padding-top: 15px;
+ .col-lg-6 {
+     padding-top: 15px;
 }
-.thin {
-    font-family: "ikaros", "Times New Roman", serif;
+ .thin {
+     font-family: "ikaros", "Times New Roman", serif;
 }
-.card {
-	position: relative;
+ .card {
+     position: relative;
 }
-.content {
-	position: absolute;
-    text-align: center;
-	top: 50%;
-    transform: translateY(-50%);
-    display: none;
-    color: black;
+ .content {
+     position: absolute;
+     text-align: center;
+     top: 50%;
+     transform: translateY(-50%);
+     display: none;
+     color: black;
 }
-.content p {
-    padding-right: 2em;
-    padding-left: 2em;
+ .content p {
+     padding-right: 2em;
+     padding-left: 2em;
 }
-.container {
-    margin-top: 50px;
+ .container {
+     margin-top: 50px;
 }
-.code {
-    margin-top: 50px;
+ .code {
+     margin-top: 50px;
 }
-.code button, {
-    background-color: rgb(184,54,106);
+ .code button, {
+     background-color: rgb(184,54,106);
 }
-.socialbtns {
-  height: auto;
+ .socialbtns {
+     height: auto;
 }
-.socialbtns ul {
-  text-align: center;
+ .socialbtns ul {
+     text-align: center;
 }
-a {
-    color: rgb(189,56,70);
-    text-decoration: none;
-    padding: 5px;
+ a {
+     color: rgb(189,56,70);
+     text-decoration: none;
+     padding: 5px;
 }
-.socialbtns, .socialbtns ul, .socialbtns li {
-    margin: 0;
-    padding: 5px;
-    text-decoration: none;
+ .socialbtns, .socialbtns ul, .socialbtns li {
+     margin: 0;
+     padding: 5px;
+     text-decoration: none;
 }
-.socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
-    text-decoration-style: none;
+ .socialbtns li {
+     list-style: none outside none;
+     display: inline-block;
+     text-decoration-style: none;
 }
-a:hover {
-    text-decoration: none;
-    color: rgb(171,40,54);
+ a:hover {
+     text-decoration: none;
+     color: rgb(171,40,54);
 }
+ 

@@ -1,105 +1,102 @@
 @media screen and (max-width: 630px) {
-	#icon-1 {
-		height: 100px;
-		width: 134px;
-	}
-	#icon-2 {
-		height: 115px;
-		width: 132px;
-	}
-	#icon-3 {
-		height: 134px;
-		width: 132px;
-	}
- }
-/* 
-  Donwloaded Font:
-  https://befonts.com/ikaros-font.html
-*/
-@font-face {
-    font-family: ikaros;
-    src: url(../fonts/Ikaros-Light.otf);
+     #icon-1 {
+         height: 100px;
+         width: 134px;
+    }
+     #icon-2 {
+         height: 115px;
+         width: 132px;
+    }
+     #icon-3 {
+         height: 134px;
+         width: 132px;
+    }
 }
-@font-face {
-    font-family: Ikaros-Regular;
-    src: url(../fonts/Ikaros-Regular.otf);
-    font-style: normal;
-    font-weight: 600;
+/* Donwloaded Font: https://befonts.com/ikaros-font.html */
+ @font-face {
+     font-family: ikaros;
+     src: url(../fonts/Ikaros-Light.otf);
 }
-* {
-	font-family: "Ikaros-Regular", "Times New Roman", serif;
-	text-align: center; 
+ @font-face {
+     font-family: Ikaros-Regular;
+     src: url(../fonts/Ikaros-Regular.otf);
+     font-style: normal;
+     font-weight: 600;
 }
-html, body {
-  	margin: 0;
- 	padding: 0;
+ * {
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
+     text-align: center;
 }
-.title {
-	margin-top: 15px;
-	width: 100%;
-	height: auto;
-	text-align: center;
+ html, body {
+     margin: 0;
+     padding: 0;
 }
-.title h1 {
-	font-size: 50px;
-	font-family: "Ikaros-Regular", "Times New Roman", serif;
+ .title {
+     margin-top: 15px;
+     width: 100%;
+     height: auto;
+     text-align: center;
 }
-.quote {
-	height: auto;
-	margin-top: 20px;
-	margin-left: 15%;
-	margin-right: 15%;
+ .title h1 {
+     font-size: 50px;
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
 }
-.nav-link {
-	color: black;
-	font-size: 20px;
+ .quote {
+     height: auto;
+     margin-top: 20px;
+     margin-left: 15%;
+     margin-right: 15%;
 }
-.thin {
-	font-family: "ikaros", "Times New Roman", serif;
+ .nav-link {
+     color: black;
+     font-size: 20px;
 }
-.align-left {
-	text-align: left;
+ .thin {
+     font-family: "ikaros", "Times New Roman", serif;
 }
-.footer {
-	height: 30px;
+ .align-left {
+     text-align: left;
 }
-.active {
-	color: gray;
+ .footer {
+     height: 30px;
 }
-.center {
-	text-align: center;
+ .active {
+     color: gray;
 }
-#gray {
-	width: auto;
-	height: auto;
-	background-color: #FFECB3;
+ .center {
+     text-align: center;
 }
-.udac {
-	padding-top: : 15px;
+ #gray {
+     width: auto;
+     height: auto;
+     background-color: #FFECB3;
 }
-
-.socialbtns {
-  height: auto;
+ .udac {
+     padding-top: : 15px;
 }
-.socialbtns ul {
-  text-align: center;
+ .socialbtns {
+     height: auto;
 }
-a {
-    color: rgb(70,122,251);
-    text-decoration: none;
-    padding: 5px;
+ .socialbtns ul {
+     text-align: center;
 }
-.socialbtns, .socialbtns ul, .socialbtns li {
-    margin: 0;
-    padding: 5px;
-    text-decoration: none;
+ a {
+     color: rgb(70,122,251);
+     text-decoration: none;
+     padding: 5px;
 }
-.socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
-    text-decoration-style: none;
+ .socialbtns, .socialbtns ul, .socialbtns li {
+     margin: 0;
+     padding: 5px;
+     text-decoration: none;
 }
-a:hover {
-    text-decoration: none;
-    color: rgb(101,177,150);
+ .socialbtns li {
+     list-style: none outside none;
+     display: inline-block;
+     text-decoration-style: none;
 }
+ a:hover {
+     text-decoration: none;
+     color: rgb(101,177,150);
+}
+ 

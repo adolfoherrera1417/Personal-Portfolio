@@ -6,6 +6,9 @@
 
     }
     .xop-left {
+      /* 
+        Using profil.jpg as logo pic
+      */
       background-image: url('../images/Profile.JPG');
       background-size: cover;
       background-position: center;

@@ -1,114 +1,112 @@
-/* 
-  Donwloaded Font:
-  https://befonts.com/ikaros-font.html
-*/
-@font-face {
-    font-family: ikaros;
-    src: url(../fonts/Ikaros-Light.otf);
-    font-style: normal;
-    font-weight: 100;
+/* Donwloaded Font: https://befonts.com/ikaros-font.html */
+ @font-face {
+     font-family: ikaros;
+     src: url(../fonts/Ikaros-Light.otf);
+     font-style: normal;
+     font-weight: 100;
 }
-@font-face {
-    font-family: Ikaros-Regular;
-    src: url(../fonts/Ikaros-Regular.otf);
-    font-style: normal;
-    font-weight: 600;
+ @font-face {
+     font-family: Ikaros-Regular;
+     src: url(../fonts/Ikaros-Regular.otf);
+     font-style: normal;
+     font-weight: 600;
 }
-* {
-	font-family: "Ikaros-Regular", "Times New Roman", serif;
-	text-align: center; 
+ * {
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
+     text-align: center;
 }
-html, body {
-  	margin: 0;
- 	padding: 0;
+ html, body {
+     margin: 0;
+     padding: 0;
 }
-.title {
-	margin-top: 15px;
-	width: 100%;
-	height: auto;
-	text-align: center;
+ .title {
+     margin-top: 15px;
+     width: 100%;
+     height: auto;
+     text-align: center;
 }
-.title h1 {
-	font-size: 50px;
-	font-family: "Ikaros-Regular", "Times New Roman", serif;
+ .title h1 {
+     font-size: 50px;
+     font-family: "Ikaros-Regular", "Times New Roman", serif;
 }
-.quote {
-	height: auto;
-	margin-top: 20px;
-	margin-left: 15%;
-	margin-right: 15%;
+ .quote {
+     height: auto;
+     margin-top: 20px;
+     margin-left: 15%;
+     margin-right: 15%;
 }
-.nav-link {
-	color: black;
-	font-size: 20px;
+ .nav-link {
+     color: black;
+     font-size: 20px;
 }
-.active {
-	color: gray;
+ .active {
+     color: gray;
 }
-.col-lg-6 {
-	padding-top: 15px;
+ .col-lg-6 {
+     padding-top: 15px;
 }
-.thin {
-	font-family: "ikaros", "Times New Roman", serif;
+ .thin {
+     font-family: "ikaros", "Times New Roman", serif;
 }
-.fas, .fa-star {
-	color: gold;
+ .fas, .fa-star {
+     color: gold;
 }
-.ability {
-	text-align: left;
-	margin: 0px;
-	padding: 0px;
+ .ability {
+     text-align: left;
+     margin: 0px;
+     padding: 0px;
 }
-.ability li {
-	text-align: left;
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+ .ability li {
+     text-align: left;
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
 }
-.left {
-	text-align: left;
+ .left {
+     text-align: left;
 }
-.lang {
-	margin: 0px;
-	padding: 0px;
+ .lang {
+     margin: 0px;
+     padding: 0px;
 }
-.lang li {
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+ .lang li {
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
 }
-.footer {
-	height: 30px;
+ .footer {
+     height: 30px;
 }
-.push {
-	float: right;
+ .push {
+     float: right;
 }
-.socialbtns {
-  height: auto;
+ .socialbtns {
+     height: auto;
 }
-.socialbtns ul {
-  text-align: center;
+ .socialbtns ul {
+     text-align: center;
 }
-a {
-    color: gold;
-    text-decoration: none;
-    padding: 5px;
+ a {
+     color: gold;
+     text-decoration: none;
+     padding: 5px;
 }
-.socialbtns, .socialbtns ul, .socialbtns li {
-    margin: 0;
-    padding: 5px;
-    text-decoration: none;
+ .socialbtns, .socialbtns ul, .socialbtns li {
+     margin: 0;
+     padding: 5px;
+     text-decoration: none;
 }
-.socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
-    text-decoration-style: none;
+ .socialbtns li {
+     list-style: none outside none;
+     display: inline-block;
+     text-decoration-style: none;
 }
-a:hover {
-    text-decoration: none;
-    color: gold;
+ a:hover {
+     text-decoration: none;
+     color: gold;
 }
-.socialbtns p {
-	text-align: center;
+ .socialbtns p {
+     text-align: center;
 }
+ 

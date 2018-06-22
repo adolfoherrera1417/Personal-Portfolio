@@ -18,13 +18,11 @@
 */
 @font-face {
     font-family: ikaros;
-    src: url(fonts/Ikaros-Light.otf);
-    font-style: normal;
-    font-weight: 100;
+    src: url(../fonts/Ikaros-Light.otf);
 }
 @font-face {
     font-family: Ikaros-Regular;
-    src: url(fonts/Ikaros-Regular.otf);
+    src: url(../fonts/Ikaros-Regular.otf);
     font-style: normal;
     font-weight: 600;
 }

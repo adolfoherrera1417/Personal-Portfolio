@@ -11,27 +11,36 @@ export default class Projects extends Component {
                 {
                     imgUrl: require('../img/iphone-x-simulator.png'),
                     company: 'Rodgriguez Tile Group',
-                    role: 'Software Engineer Intern, Summer 2019',
-                    location: 'Denver, Colorado',
-                    description: 'I was tasked with the setup of tools and enviornments for a DevOps Pipepline. Their goal was to take a codebase and prepare it for continuous integration and deployment. I was able to setup a Jenkins pipeline. I was in charge of keeping the status of any tool that was being used and a create a single dashboard using the ELK stack.',
-                    git: 'www.google.com'
+                    role: 'Freelancing Project',
+                    location: '',
+                    description: '',
+                    git: 'https://github.com/adolfoherrera1417',
+                    extras: [
+                        'I will update later on how I found this project but for now, I can say that it is a gallery/future messaging app for a Tile Company based in Mcallen Texas. The goal for me in this project was to gain more experience in the backend side of programming.',
+                        'This has probably been one of the most complex projects I have ever worked on. Everything is stood up from the ground up using a micro-service architecture. Meaning that the Front-End and Back-End are completely separate and have the opportunity to scale up.',
+                        'I spent most of my time learning more backend languages such as NodeJs to create RESTful APIs, MongoDB for a NoSQL database, and Docker to set the base for scale.'
+                    ]
                 },
                 {
-                    imgUrl: require('../img/snow_leopard.png'),
+                    imgUrl: require('../img/Microservice-Architecture-Example.png'),
                     company: 'Personal Portfolio',
-                    role: 'Project X',
-                    location: 'Denver, Colorado',
-                    description: 'I was tasked with the setup of tools and enviornments for a DevOps Pipepline. Their goal was to take a codebase and prepare it for continuous integration and deployment. I was able to setup a Jenkins pipeline. I was in charge of keeping the status of any tool that was being used and a create a single dashboard using the ELK stack.',
-                    git: 'www.apple.com'
+                    role: 'Personal Project Since 2017',
+                    location: '',
+                    description: '',
+                    git: 'https://github.com/adolfoherrera1417/PersonalPortfolio',
+                    extras: [
+                        'This project was sort of my stepping stone into the world of web development. My site has gone through some major redesigns and structures over the last several months. My website has not always been like this. It started off as a plain HTML and CSS with some minor Javascript. To put it bluntly it was 😬.',
+                        'Now it is completely revamped using React and having a micro-service architecture. The purpose of my website is to set a base for a scalable web app. The future for this site is to get a blog post web app set up where I can discuss different technologies that I have worked with in greater depth.',
+                    ]
                 }
             ]
         }
     }
 
     loadExperience() {
-        return this.state.jobs.map( (job, id) => {
+        return this.state.jobs.map( (project, id) => {
             return <Project 
-            info = {job}
+            info = {project}
             key={id}
             />
         })

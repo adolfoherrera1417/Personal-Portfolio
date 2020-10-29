@@ -24,3 +24,5 @@ yarn-error.log*
 
 # extra material
 /Legacy
+
+.DS_Store
